@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+h1 {
+font-family: 'Comfortaa';
+  font-style: bold;
+  font-weight: 300;
+  font-display: swap;
+  font-size: 3vmax;
+  color: white;
+
+}
+
+.top {
+  margin: auto;
+  text-align: center;
+
+  background-image: url(bg1.jpg);
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+
+
+
+}
+
+h2 {
+  font-family: 'Comfortaa';
+    font-style: bold;
+    font-weight: 300;
+    margin-left: 10px;
+
+    font-size: 3.5vw;
+    color: #FFD24C;
+    text-align: center;
+    position: relative;
+    top: 15vw;
+
+
+
+}
+
+h3 {
+  font-family: 'Comfortaa';
+    ;
+    font-weight: 500;
+    font-size: 5vw;
+    color: #FFD24C;
+    display: inline-block;
+    text-align: left;
+    margin-left: 55vw;
+
+}
+
+h5 {
+  font-family: 'Comfortaa';
+    ;
+    font-weight: 800;
+    font-size: 5vw;
+    color: white;
+
+    text-align: left;
+    margin-left: 5vw;
+    max-width: 30vw;
+    display: inline-block;
+    position: absolute;
+
+}
+
+
+.car {
+  position: relative;
+
+
+
+}
+
+.car2 {
+  position: relative;
+
+  top: 30vw;
+}
+
+.fasttext {
+  margin-bottom: 35vw;
+
+}
+
+hr {
+    border: none;
+
+
+    /* baround-color: #92B4EC; */
+    border-top: 5px dashed #FFD24C;
+    padding: 0;
+    margin: 0;
+
+}
+
+.skillsz {
+  background-image: url(boat.jpg);
+
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+.skill-row {
+
+  text-align: left;
+  background-color: white;
+  max-width: 35vw;
+  margin-left: 10vw;
+  background-radius: 10px;
+}
+h4 {
+  font-family: 'Comfortaa';
+
+    font-weight: 500;
+    font-size: 3.2vw;
+    color: #92B4EC;
+
+    text-align: left;
+    margin-left: 8vw;
+    padding-bottom: 15px;
+    padding-right: 50px;
+
+}
+
+.skilimag {
+  max-width: 6vw;
+  position: absolute;
+  left: 8vw;
+}
+.projects {
+  height: 70vh;
+  background-image: url(trr.png);
+  background-repeat: repeat-y;
+  background-size: 60%;
+
+  background-position: 15vw;
+
+
+}
+
+.butn {
+  margin-left: 60vw;
+    color: #FFD24C;
+    background: #FFD24C;
+    width: 30vw;
+    height: 10vh;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 2vw;
+    font-family: 'Comfortaa';
+
+      font-weight: 500;
+
+}
+.butn:hover{
+    transform: translateY(-1vh);
+    box-shadow: 0px 1vh 2vh 0px white;
+}
+
+.butn2{
+  margin-left: 60vw;
+    color: white;
+    background: #92B4EC;
+    border-radius: 10px;
+    border: none;
+    padding: 10px  30px;
+    font-size: 4vw;
+    font-family: 'Comfortaa';
+
+      font-weight: 500;
+}
+.butn2:hover{
+    transform: translateY(-1.5vh);
+    box-shadow: 0px 1vh 2vh 0px #FFD24C;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.cont {
+  background-image: url(liv.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+  height: 75vh;
+}
+
+
+background-image {
+  max-width: 100%;
+  height: auto;
+}
