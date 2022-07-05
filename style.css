@@ -140,7 +140,7 @@ h4 {
   left: 8vw;
 }
 .projects {
-  height: 70vh;
+  height: 500px;
   background-image: url(trr.png);
   background-repeat: repeat-y;
   background-size: 60%;
@@ -200,7 +200,7 @@ a {
   background-size: 100%;
   background-position: center;
   background-repeat: repeat-y;
-  height: 75vh;
+  height: 500px;
 }
 
 
