@@ -63,12 +63,12 @@ h5 {
   font-family: 'Comfortaa';
     ;
     font-weight: 800;
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: white;
 
     text-align: left;
     margin-left: 5vw;
-    max-width: 30vw;
+    max-width: 25vw;
     display: inline-block;
     position: absolute;
 
@@ -141,11 +141,13 @@ h4 {
 }
 .projects {
   height: 500px;
+  background-color: white;
   background-image: url(trr.png);
-  background-repeat: repeat-y;
+
   background-size: 60%;
 
   background-position: 15vw;
+  background-repeat: no-repeat;
 
 
 }
@@ -196,10 +198,13 @@ a {
 
 
 .cont {
+  background-color: #0785b5;
   background-image: url(liv.jpg);
   background-size: 100%;
   background-position: center;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+
+
   height: 500px;
 }
 
