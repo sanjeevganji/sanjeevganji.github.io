@@ -1,195 +1,215 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanjeev Ganji</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico">
-  </head>
-  <body style="background-color:white;">
-    <div class="body">
-      <div class="top" style="border-radius: 100px;">
-<br>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
 
 
-        <table style="width:100%;">
-          <tr>
-            <th style="width:33.33%;">
-              <h1>Hey <br> There!</h1>
-              <h1>I'm</h1>
-              <h1>Sanjeev <br> Ganji</h1>
-            </th>
-            <th style="width:33.33%;">
-              <img src="potrati.png" style="width:25vw">
+}
 
-            </th>
-            <th style="width:33.3%">
-              <h1>
-              Coder,<br>
-              Designer <br>
-              and <br>
-              Gaming <br> Enthusiast.</h1>
-            </th>
-          </tr>
-        </table>
-<br>
-      </div>
-      <br>
+h1 {
+font-family: 'Comfortaa';
+  font-style: bold;
+  font-weight: 300;
+  font-display: swap;
+  font-size: 3vmax;
+  color: white;
 
+}
 
-      <div class="car">
+.top {
+  margin: auto;
+  text-align: center;
 
+  background-image: url(bg1.jpg);
 
-        <img src="car.jpg" alt="car image" align=right style="max-height: 15vw;">
-          <img src="scrrr.gif" alt="scroll image" align=left style="max-height: 12vw; position: absolute;">
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 
 
 
+}
+
+h2 {
+  font-family: 'Comfortaa';
+    font-style: bold;
+    font-weight: 300;
+    margin-left: 10px;
+
+    font-size: 3.5vw;
+    color: #FFD24C;
+    text-align: center;
+    position: relative;
+    top: 15vw;
 
 
 
-      </div>
+}
+
+h3 {
+  font-family: 'Comfortaa';
+    ;
+    font-weight: 500;
+    font-size: 5vw;
+    color: #FFD24C;
+    display: inline-block;
+    text-align: left;
+    margin-left: 55vw;
+
+}
+
+h5 {
+  font-family: 'Comfortaa';
+    ;
+    font-weight: 800;
+    font-size: 4.5vw;
+    color: white;
+
+    text-align: left;
+    margin-left: 5vw;
+    max-width: 25vw;
+    display: inline-block;
+    position: absolute;
+
+}
 
 
-      <div class="car2">
-        <img src="car2.jpg" alt="car image" align=left style="max-height: 15vw;">
-
-
-      </div>
-      <div class="fasttext">
-
-
-
-      <h2 align=center>I like doing things fast! So I have more time to do more things.</h2>
-    </div>
-<hr>
-
-
-      <div class="skillsz">
-
-        <br>
-        <br>
-        <h3 style="position: absolute">These are my Skills.</h3>
-        <div class="skill-row" style="border-radius: 20px;">
-          <br>
-<img class="skilimag" src="c.png" alt="">
-          <h4>Competitive Programming</h4>
-
-        </div>
-        <br>
-
-        <div class="skill-row" style="border-radius: 20px;">
-          <br>
-<img class="skilimag" src="html.png" alt="">
-
-          <h4>Web Development</h4>
-        </div>
-        <br>
-        <div class="skill-row" style="border-radius: 20px;">
-          <br>
-<img class="skilimag" src="ps.png" alt="">
-
-          <h4>Graphic Design</h4>
-        </div>
-        <br>
-        <br>
-
-      </div>
-      <hr>
-
-      <div class="projects">
-        <br>
-        <h2 style="top: 10px; left: 20vw; margin-bottom: 55px;">Take a look at my <br> Projects and Resume.</h2>
-        <span class="btn2">
-       <button class="butn2"><a href="https://www.youtube.com/">
-         Projects
-       </a></button>
-   </span>
-   <br>
-   <br><br>
-   <span class="btn2">
-  <button class="butn2"><a2 href="https://www.youtube.com/">
-    Resume
-  </a2></button>
-
-</span>
-
-      </div>
-      <hr>
+.car {
+  position: relative;
 
 
 
-      <div class="cont">
-        <br><br>
-        <h5>I would Love for you to Contact Me.</h5>
-        <span class="btn">
-       <button class="butn"><a href="https://www.linkedin.com/in/ganji-sanjeev-raj-04223021a/">
-         LinkedIn
-       </a></button>
-       <span class="btn">
-      <button class="butn"><a href="https://github.com/sanjeevganji">
-        Github
-      </a></button>
-      <span class="btn">
-     <button class="butn"><a href="https://www.facebook.com/sanjeevraj.ganji/">
-       Facebook
-     </a></button>
-     <span class="btn">
-    <button class="butn"><a href="https://www.instagram.com/_sanjeev._.ganji_/">
-      Instagram
-    </a></button>
+}
 
-     </span>
+.car2 {
+  position: relative;
 
-      </div>
-    </div>
+  top: 30vw;
+}
+
+.fasttext {
+  margin-bottom: 35vw;
+
+}
+
+hr {
+    border: none;
 
 
-    <!-- <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p>© Name Surname.</p>
-    </div> -->
+    /* baround-color: #92B4EC; */
+    border-top: 5px dashed #FFD24C;
+    padding: 0;
+    margin: 0;
+
+}
+
+.skillsz {
+  background-image: url(boat.jpg);
+
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+.skill-row {
+
+  text-align: left;
+  background-color: white;
+  max-width: 35vw;
+  margin-left: 10vw;
+  background-radius: 10px;
+}
+h4 {
+  font-family: 'Comfortaa';
+
+    font-weight: 500;
+    font-size: 3.2vw;
+    color: #92B4EC;
+
+    text-align: left;
+    margin-left: 8vw;
+    padding-bottom: 15px;
+    padding-right: 50px;
+
+}
+
+.skilimag {
+  max-width: 6vw;
+  position: absolute;
+  left: 8vw;
+}
+.projects {
+  height: 500px;
+  background-color: white;
+  background-image: url(trr.png);
+
+  background-size: 60%;
+
+  background-position: 15vw;
+  background-repeat: no-repeat;
+
+
+}
+
+.butn {
+  margin-left: 60vw;
+    color: #FFD24C;
+    background: #FFD24C;
+    width: 30vw;
+    height: 10vh;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 2vw;
+    font-family: 'Comfortaa';
+
+      font-weight: 500;
+
+}
+.butn:hover{
+    transform: translateY(-1vh);
+    box-shadow: 0px 1vh 2vh 0px white;
+}
+
+.butn2{
+  margin-left: 60vw;
+    color: white;
+    background: #92B4EC;
+    border-radius: 10px;
+    border: none;
+    padding: 10px  30px;
+    font-size: 4vw;
+    font-family: 'Comfortaa';
+
+      font-weight: 500;
+}
+.butn2:hover{
+    transform: translateY(-1.5vh);
+    box-shadow: 0px 1vh 2vh 0px #FFD24C;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
 
 
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-      $(window).scroll(function(){
-              var scroll = $(window).scrollTop();
-              $(".top").css({
-
-                  width: (100-scroll/4) + "%"
-                  // background-size: 100%;
-              })
-          })
-
-          $(window).scroll(function(){
-                  var scroll = $(window).scrollTop();
-                  $(".car").css({
-
-                      right: scroll
-                      // background-size: 100%;
-                  })
-              })
-              $(window).scroll(function(){
-                      var scroll = $(window).scrollTop();
-                      $(".car2").css({
-
-                        left: scroll
-                          // padding-left: 100%;
-                      })
-                  })
+.cont {
+  background-color: #0785b5;
+  background-image: url(liv.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 
 
+  height: 500px;
+}
 
 
-    </script>
-
-
-
-  </body>
-</html>
+background-image {
+  max-width: 100%;
+  height: auto;
+}
